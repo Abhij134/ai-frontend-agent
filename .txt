@@ -1,0 +1,152 @@
+Founding AI Engineer —
+Assignment
+Assignment: AI-Powered Frontend Website Cloning
+Agent
+Objective
+Build an AI Agent that takes a publicly accessible website URL and automatically
+recreates its frontend/UI.
+The goal is to evaluate your ability to build an AI-powered engineering system that
+can analyze an unfamiliar website, generate a frontend, and modify it using
+natural-language instructions.
+1. Expected Workflow
+Website URL
+↓
+AI Agent
+↓
+Analyze Website
+↓
+Understand UI / Layout
+↓
+Generate React / Next.js Frontend
+↓
+Run & Validate
+↓
+Local Preview
+↓
+Modify using AI Prompts
+The output should be a new frontend implementation, not an embedded copy of
+the original website.
+2. Core Requirements
+1
+Founding AI Engineer — Assignment
+The AI Agent should:
+Accept a public website URL.
+Analyze the website's:
+Layout
+Sections
+Navigation
+Text
+Images/assets
+Colors
+Typography
+Spacing
+Components
+Responsive structure
+Generate a responsive React/Next.js frontend.
+Recreate the original UI as accurately as reasonably possible.
+Use reusable components and clean code.
+Detect and handle basic generated-code/build errors.
+Provide a local preview of the generated website.
+3. AI-Based Modification
+After generating the website, the user should be able to modify it using natural
+language instructions.
+Examples:
+"Change the primary color to blue."
+"Add a testimonials section."
+2
+Founding AI Engineer — Assignment
+"Replace the hero section with a bakery hero."
+"Make the navbar sticky."
+"Remove the pricing section."
+The AI Agent should modify the generated frontend/code based on these
+instructions.
+4. Multiple Website Test
+Your solution should not be hardcoded for one website.
+We will provide 3 different websites for evaluation.
+Your agent should attempt to recreate all three.
+5. Technology
+Preferred:
+React / Next.js
+TypeScript
+You are free to choose other technologies where appropriate.
+You may use AI development tools such as:
+ChatGPT
+Claude
+Cursor
+GitHub Copilot
+Other AI coding tools
+Using AI tools is encouraged. You should, however, be able to explain your
+implementation and architecture.
+6. Hosting
+3
+Founding AI Engineer — Assignment
+No hosting is required.
+The entire assignment only needs to run locally.
+7. Submission
+1. Complete Codebase
+GitHub repository containing the working project.
+2. Demo Video
+A 510 minute video showing:
+Entering a website URL
+Website analysis
+AI Agent generating the frontend
+Generated website preview
+Responsive/mobile view
+Modifying the website using an AI prompt
+3. README
+Keep the README concise and include:
+Setup instructions
+Architecture
+Technologies/models used
+Key implementation decisions
+Limitations
+4. Architecture Diagram
+Show how your AI Agent works from:
+URL 
+→
+ Analysis 
+→
+ Generation 
+→
+ Validation 
+→
+ Modification
+4
+Founding AI Engineer — Assignment
+Evaluation
+Area
+Frontend recreation quality
+AI Agent implementation
+Weight
+25%
+20%
+Generalization across websites 20%
+Code quality & architecture
+15%
+Natural-language modification 10%
+Error handling
+Cost awareness
+Total
+5%
+5%
+100%
+Technical Discussion
+After submission, we may discuss:
+Why you chose your architecture
+How your agent analyzes a website
+How you generate reliable frontend code
+How you handle generated-code errors
+How you improve visual accuracy
+How you would reduce AI/API costs
+How you would scale the system
+What you would improve with more development time
+Time Limit
+48 hours
+We are not expecting a production-ready platform.
+We are looking for a strong working MVP that demonstrates your ability to build AI
+agents, work with unfamiliar systems, develop frontend applications quickly,
+5
+Founding AI Engineer — Assignment
+and solve problems independently.
+6
+Founding AI Engineer — Assignment

@@ -1,0 +1,19 @@
+{
+  "name": "ai-cloner",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "setup": "tsx setup.ts",
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.0.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.45.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}

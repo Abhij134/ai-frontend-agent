@@ -1,0 +1,5 @@
+node_modules/
+preview-app/node_modules/
+preview-app/.next/
+.env
+*.png
