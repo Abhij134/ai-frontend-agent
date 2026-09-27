@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Disable dark mode by explicitly defining light mode styles */
+body {
+  background-color: #ffffff; /* White background */
+  color: #1f2937; /* Default text color (gray-900 equivalent) */
+}
+
+/* Ensure font variables are respected if not directly applied */
+@layer base {
+  :root {
+    --font-sans: var(--font-roboto);
+  }
+}
+
+/* No @media (prefers-color-scheme: dark) block */
